@@ -21,10 +21,19 @@ void reed_ekidan2() {
   printf("We learned that git and GitHub are amazing, powerful tools!\n");
 }
 
+void sho28_hthan2() {
+  printf("Sebastian Ho and Htin Linn Htoo Than\n");
+  printf("We learned that there are staged and unstaged files.\n");
+  printf("Unstaged files are files that were edited since the last time you commited.\n");
+  printf("Staged files are files in the state that you previously added using add.\n");
+  printf("These are the files that will be uploaded to the repository when you do a push.\n");
+}
+
 int main()
 {
     printf("This code has been created by the students of CS 211, Fall 2022!\n\n");
     
+    sho28_hthan2();
     reed_ekidan2();
     
     return 0;
